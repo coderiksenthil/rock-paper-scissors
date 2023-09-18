@@ -1,9 +1,13 @@
-//console.log("Hello world");
-function getComputerChoice(Rock,Paper,Scissors){
-    return getComputerChoice;
+function myfunction() {
+    let name = prompt("Enter the number of times: ", "6");
+    //console.log("Hello" + name);
+    for(let i = 0; name > i; i ++){
+        start();
+    } 
 }
 
-function playRound(playSelection,computerSelection){
-    var input = input("Enter a value: ");
-    
+function start(){
+    let start = prompt("Rock Paper or Scisccors: ")
+    start = start.toLowerCase();
+    computerreply();
 }
