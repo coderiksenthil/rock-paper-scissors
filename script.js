@@ -34,7 +34,8 @@ function choice(playerselection,computerselection){
         let text = "You Won, paper beats paper";
         return text;
     }else if(playerselection === "rock" && computerselection === "paper"){
-        print("You lost, Rock beats paper");
+        let text = "You lost, Rock beats paper";
+        return text;
     }else if(playerselection === computerselection){
         let text = "its a draw";
         return text;
