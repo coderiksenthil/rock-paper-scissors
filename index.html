@@ -1,16 +1,25 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>rock paper scisccors</title>
-        <script src="script.js"></script>
-    </head>
-    <body>
-    <h1>Rock Paper Scisccors</h1>
-    <h2>lets revisit our school days</h2>
-    <button onclick="myfunction()">Click here to play</button>
-    <p id = "demo"></p>
-    <h1>Game2 - The Fisher Yates Method</h1>
-    <p>In this game everthing comes randomly so try to arrange from low to high and high to low</p>
-    <button onclick="myFunction()">click</button>
-    <p id="demo2"></p>
-    </body>
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Rock, Paper, and Scissors</h1>
+    <div id="human-score">
+        <p>Human Score</p>
+        <h2 class="human-score">0</h2>
+    </div>
+    <div id="computer-score">
+        <p>Computer Score</p>
+        <h2 class="computer-score">0</h2>
+    </div>
+    <div id="play-round">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <h2 id="msg">Play 5 times to win against the computer</h2>
+    <script src="script.js"></script>
+</body>
 </html>
